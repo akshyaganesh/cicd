@@ -56,8 +56,8 @@ apt install unzip
 adduser sonarqube
 wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-25.1.0.102122
 unzip *
-chmod -R 755 /home/sonarqube/sonarqube-9.4.0.54424
-chown -R sonarqube:sonarqube /home/sonarqube/sonarqube-9.4.0.54424
+chmod -R 755 /home/sonarqube/25.1.0.102122
+chown -R sonarqube:sonarqube /home/sonarqube/25.1.0.102122
 cd sonarqube-9.4.0.54424/bin/linux-x86-64/
 ./sonar.sh start
 ```
